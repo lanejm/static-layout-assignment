@@ -1,0 +1,252 @@
+html {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+body {
+    background-color: #531F62;
+    background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+    background-size: 100vw;
+}
+#wrap {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+   
+}
+.navbar {
+    height: 80px;
+    padding: 25px;
+    margin: 0px;
+    margin-right: 125px;
+    float: right;
+    position: relative;
+    display: block;
+    transition: top 0.3s;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.navbar li {
+    height: auto;
+    width: 120px;
+    float: left;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    box-sizing: border-box;
+
+}
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 25px;
+    margin-right: -80px;
+    line-height: 2;
+    text-align: start;
+    color: #434146;;
+    display: block;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li:hover ul{
+    display: block;
+}
+
+.navbar li ul li {
+    background-color: #FFFFFF;
+}
+
+.navbar li ul li a {
+    border-left: 1px solid #531F62;
+    border-right: 1px solid #531F62;
+    border-top: 1px solid #531F62;
+    border-bottom: 1px solid #531F62;
+}
+
+.navbar li ul li a:hover {
+    background-color: #ffffff;
+}
+
+.headerKast {
+    position: absolute;
+    z-index: 70;
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    width: 104px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
+    color: #ffffff;
+    right: 50px;
+    top: 30px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+.aboutContent {
+    display: inline-block;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: white;
+}
+
+.dropButtonOne .dropButtonTwo .dropButtonThree {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdownContentA {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.kastLogo {
+    cursor: pointer;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.mainContent{
+    background-color: #531F62;
+    background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+    background-size: 0em;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+.image {
+   position: relative;
+   margin-right: 1em;
+   margin-top: 5em;
+}
+
+.text h1 {
+    text: white;
+    margin: 0 auto 30px;
+    max-width: 500px;
+    font-size: 43px;
+    margin-bottom: 30px;
+}
+
+.text h3 {
+    text: white;
+    margin: 0 auto 30px;
+    max-width: 500px;
+    line-height: 2;
+}
+
+.button-desktop {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fd7e14;;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 70px;
+}
+
+
+h1 h2 h3 {
+    text-align: center;
+    font: white;
+}
+
+.publications-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 140px;
+    row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 3px;
+    margin: 0 auto 60px;
+    background-color: white;
+    background-size: cover;
+}
+
+.section-publications {
+    color: #434146;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.section-publications h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.publications-content {
+    text-align: center;
+    padding: 60px 0;
+}
+.quote-block {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434146;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: center;
+    display: block;
+    line-height: 1.25em;
+
+}
+
+.quote-auth {
+    margin-right: 350px;
+    font-size: 16px;
+    text-align: right;
+}
